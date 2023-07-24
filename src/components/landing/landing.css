@@ -1,0 +1,38 @@
+.container_landing {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.callToAction > *{
+    margin-top: 5rem;   
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        width: var(--container-width-md);
+    }
+
+    section{
+        margin-top: 6rem
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: var(--container-width-sm);
+    }
+
+    section > h2{
+        margin-bottom: 2rem;
+    }
+}
+

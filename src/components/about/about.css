@@ -1,0 +1,60 @@
+.container_about{
+    margin-top: 5rem;
+    background-color: rgba(17, 17, 17, 0.9);
+
+    height:100vh;
+    width: 100% !important;
+    overflow: hidden;
+
+    
+    display:grid;
+    grid-template-columns: 0.8fr 1.4fr;
+    gap: 10px;
+
+    align-items: center;
+}
+
+.me_pic{
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(50%);
+    width:400px;
+    height:auto;
+    overflow:hidden;
+}
+
+.about_heading{
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 1624px){
+    .container_about {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        justify-content: center; /* Center the content horizontally */
+        padding: 15px; /* Add some padding to the container */
+        height:120vh;
+    }
+  
+    .me_pic {
+        transform: translateX(0); /* Reset the image position */
+        margin: 0 auto; /* Center the image horizontally */
+        width: 300px; /* Adjust the image width for smaller screens */
+    }
+}
+
+/* Add this to your existing media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .container_about {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        justify-content: center; /* Center the content horizontally */
+        /*padding: 10px; /* Add some padding to the container */
+        height:120vh;
+    }
+  
+    .me_pic {
+        transform: translateX(0); /* Reset the image position */
+        margin: 0 auto; /* Center the image horizontally */
+        width: 250px; /* Adjust the image width for smaller screens */
+    }
+}
+  
