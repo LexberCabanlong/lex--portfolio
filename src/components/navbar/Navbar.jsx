@@ -6,14 +6,13 @@ import {MdOutlineWorkOutline} from 'react-icons/md'
 
 const Navbar = () => {
   return (
-    <div class = "nav_container">
-      <div class = "navbar">
-          <a href = "#"><AiOutlineHome/></a> {/*Home*/}
-          <a href = "#"><AiOutlineUser/></a> {/*About*/}
-          <a href = "#"><MdOutlineWorkOutline/></a> {/*Work Experience*/}
-          <a href = "#"><PiCertificate/></a>{/*Certificate*/}
-          <a href = "#"><AiOutlineFolderOpen/></a> {/*Portfolio*/}
-          <a href = "#"><AiOutlinePhone/></a>{/*Contact Me*/}
+    <div className="nav_container">
+      <div className="navbar">
+        <a href="#landing"><AiOutlineHome/></a> {/* Home */}
+        <a href="#about"><AiOutlineUser/></a> {/* About */}
+        <a href="#work-experience"><MdOutlineWorkOutline/></a> {/* Work Experience */}
+        <a href="#portfolio"><AiOutlineFolderOpen/></a> {/* Portfolio */}
+        <a href="#contact"><AiOutlinePhone/></a> {/* Contact Me */}
       </div>
     </div>
     
