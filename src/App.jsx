@@ -3,6 +3,7 @@ import Landing from './components/landing/Landing'
 import Navbar from './components/navbar/Navbar'
 import About from './components/about/About'
 import WorkExperience from './components/work_experience/Work_Experience'
+import Portfolio from './components/portfolio/Portfolio'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Landing/>
       <About/>
       <WorkExperience/>
+      <Portfolio/>
     </>
   )
 }

@@ -147,3 +147,10 @@ img{
         margin-top: 2rem;
     }
 }
+
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary)
+}
