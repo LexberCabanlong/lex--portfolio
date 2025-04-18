@@ -11,22 +11,20 @@ const About = () => {
       <div className="container">
         <h1 className="text-emphasis-color">About Me</h1>
         <br />
-        <p className="text-light">I'm a data analyst with a passion for beautiful data visualizations that produce amazing insights.</p>
-        <br />
-        <p className="text-light" id="typing-text">
-          I have over 4 years of experience in data analytics. I have a strong background in data visualization and I am proficient in Python, SQL, and Tableau. I use my creativity and problem-solving skills to solve complex problems.
+        <p className="text-light">
+          I'm a data analyst with 4+ years of experience turning complex data into clear, actionable insights. I specialize in data visualization using 
+          <b><i> Python</i></b>, <b><i>SQL</i></b>, and <b><i>Tableau</i></b>, and I’m passionate about creating dashboards that tell compelling stories.
         </p>
         <br />
         <p className="text-light">
-          Throughout my career, I have had the opportunity to work with various industries, helping them make data-driven decisions. I am well-versed in handling large datasets, cleaning and transforming data, and building meaningful reports. My focus is not just on the technical aspect, but also on crafting user-friendly dashboards and visualizations that tell a compelling story.
+          I've worked across industries and domain knowledges to help teams make data-driven decisions. From cleaning large datasets to building intuitive reports, 
+          I focus on both technical precision and user-friendly design.
         </p>
         <br />
         <p className="text-light">
-          I thrive in collaborative environments where I can contribute ideas and work together to find the best solutions. I'm always looking to learn new tools, techniques, and methods to expand my skill set. Whether it's diving into machine learning models or exploring advanced data visualization techniques, I enjoy challenging myself to push the boundaries of what data can reveal.
-        </p>
-        <br />
-        <p className="text-light">
-          Outside of work, I enjoy experimenting with side projects, exploring new technologies, and staying up to date with industry trends. I'm passionate about sharing my knowledge and helping others grow in the data space, whether through mentoring, or participating in forums.
+          I thrive in collaborative environments and love exploring new tools, data engineering techniques, 
+          and advanced <b><i>data visualization</i></b> methods. Outside of work, I enjoy side projects, 
+          mentoring and staying current with industry trends.
         </p>
       </div>
     </div>
