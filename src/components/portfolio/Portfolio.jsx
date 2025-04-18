@@ -11,10 +11,12 @@ const projects = [
         title: 'Portfolio Website', 
         type: 'Web Development', 
         description: 
-            'If you are here, then you are already viewing my portfolio. I wanted to learn how to develop websites using React, so I did my portfolio website using that.', 
+            'If you are here, then you are already viewing my portfolio. '+
+            'I wanted to learn how to develop websites using React, so I did this portfolio using React. ' +
+            'It is a responsive and user-friendly website that should work on any device.' , 
         tech:'React.js, Material UI, Tailwind',
-        githubLink: '#', 
-        liveLink: '#', 
+        githubLink: 'https://github.com/LexberCabanlong/lex--portfolio', 
+        liveLink: 'https://portfolio-lex.vercel.app/', 
         image: WEB_DEV_IMG 
     },
     { 
@@ -77,17 +79,19 @@ const ProjectShowcase = () => {
                                 <Button
                                     size="small"
                                     color="primary"
-                                    href={project.githubLink}
+                                    href={project.githubLink !== '#' ? project.githubLink : null}
                                     startIcon={<FaGithub />}
                                     target="_blank"
+                                    disabled={project.githubLink === '#' || !project.githubLink}
                                 >
                                     GitHub
                                 </Button>
                                 <Button
                                     size="small"
                                     color="secondary"
-                                    href={project.liveLink}
+                                    href={project.liveLink !== '#' ? project.liveLink : null}
                                     target="_blank"
+                                    disabled={project.liveLink === '#' || !project.liveLink}
                                 >
                                     Live Demo
                                 </Button>
