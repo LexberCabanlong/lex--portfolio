@@ -36,7 +36,7 @@ const projects = [
     { 
         title: 'Document Tracking Information System', 
         type: 'Web Development', 
-        year: 2024,
+        year: 2020,
         description: 
             'It is a document tracking information system designed to ' +
             'manage and monitor the movement of documents within an office. ' +
